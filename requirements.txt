@@ -1,0 +1,26 @@
+# Core Django - Include the latest stable version of the libraries
+Django==6.0.1
+
+# Database
+psycopg2-binary
+dj-database-url
+django-environ==0.12.0
+django-redis
+redis
+
+# REST API
+djangorestframework
+djangorestframework-simplejwt
+
+# Admin theme
+django-jazzmin==3.0.1
+
+# Static files
+whitenoise==6.11.0
+
+# Utilities
+python-dotenv==1.2.1
+requests
+pillow
+packaging
+typing_extensions
