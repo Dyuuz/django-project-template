@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
 echo "=== Boot: validating environment ==="
-# Change DB_URL to DATABASE_URL if your settings use that
-if [ -z "$DB_URL" ]; then
-  echo "ERROR: DB_URL is not set"
-  exit 1
-fi
 
 PORT=${PORT:-8000}
 export PYTHONUNBUFFERED=1
