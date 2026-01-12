@@ -21,7 +21,7 @@ This template is opinionated but flexible, suitable for APIs, dashboards, and fu
 
 ## 📁 Project Structure
 
-```text
+```
 .
 ├── manage.py
 ├── basekit/                 # Main Django settings module
@@ -35,6 +35,7 @@ This template is opinionated but flexible, suitable for APIs, dashboards, and fu
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
+```
 
 ## 🚀 Getting Started
 
@@ -43,19 +44,20 @@ You can either **fork** or **clone** this repository to start a new Django proje
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 ## Virtual Environment (Required)
 
 You must create and activate a virtual environment manually.
 
-```Windows
+## Windows
 
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
 
-```Linux/macOS
+## Linux/macOS
 
 ```
 python3 -m venv venv
