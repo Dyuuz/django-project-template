@@ -87,11 +87,13 @@ CSRF_TRUSTED_ORIGINS and CORS_ALLOWED_ORIGINS must include a valid scheme (http:
 Do not commit your .env file
 
 ## 🗄️ Database Setup
+
 ```
 python manage.py migrate
 ```
 
 ## ➕ Creating a New App
+
 ```
 python manage.py startapp myapp
 ```
